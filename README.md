@@ -8,10 +8,10 @@ $ python hplc_split.py foldername
 ```
 Then you will get your split files (.txt) inside the `foldername-output` folder.
 
-You can also make `split_hplc.py` executable by simlinking it to `split_hplc` and putting it in your PATH:
+You can also make `split_hplc.py` executable by simlinking it to `split_hplc` and putting it in your `bin`:
 ```bash
 $ chmod +x split_hplc.py
-$ ln -s ./split_hplc.py ~/bin/split_hplc
+$ ln -s ./split_hplc.py usr/local/bin/split_hplc
 ```
 Then you can call it as
 ```bash
